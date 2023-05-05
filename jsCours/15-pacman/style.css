@@ -1,0 +1,22 @@
+/* img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(0deg);
+
+}
+ */
+
+ body{
+    background: url(../img/back.png) black no-repeat;
+    background-size: cover;
+}
+
+#pacman{
+    width:100px;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:left 500ms,top 500ms;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="blocL">
+        <p></p>
+    </div>
+
+    <div class="blocR">
+        <h1>Personnalisez votre canette</h1>
+        <h2>Couleur de la canette</h2>
+        <div id="choixColor">
+            <img src="img/can_bleue.png" id="bleue" onclick="changeB(this)" alt="">
+            <img src="img/can_jaune.png" id="jaune" onclick="changeJ(this)" alt="">
+            <img src="img/can_rouge.png" id="rouge" onclick="changeR(this)" alt="">
+            <img src="img/can_verte.png" id="verte" onclick="changeV(this)" alt="">
+        </div>
+        <h2>Texte</h2>
+        <input type="text" name="" id="textCanette" placeholder="Votre texte">
+        <h3>Position</h3>
+        <div>
+            <button onclick="gauche(this)">&lt;</button>
+            <button onclick="droite(this)">&gt;</button>
+            <button onclick="haut(this)">^</button>
+            <button onclick="bas(this)">V</button>
+        </div>
+        <h3>Police</h3>
+        <div>
+            <button href="" onclick="arial(this)">Arial</button>
+            <button href="" onclick="verdana(this)">Verdana</button>
+            <button href="" onclick="courrier(this)">Courrier</button>
+        </div>
+        <h3>Couleur</h3>
+        <div>
+            <button href="" onclick="noir(this)">Noir</button>
+            <button href="" onclick="blanc(this)">Blanc</button>
+            <button href="" onclick="bleu(this)">Bleu</button>
+            <button href="" onclick="jaune(this)">Jaune</button>
+            <button href="" onclick="rouge(this)">Rouge</button>
+            <button href="" onclick="vert(this)">Vert</button>
+        </div>
+        <h3>Taille</h3>
+        <div>
+            <button href="" onclick="plus(this)">T+</button>
+            <button href="" onclick="moins(this)">T-</button>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

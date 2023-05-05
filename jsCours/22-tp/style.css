@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+
+}
+
+.blocL {
+    width: 50%;
+    background: url(img/can_bleue.png) no-repeat;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    left: 0;
+}
+
+.blocR {
+    background-color: blue;
+    width: 50%;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+#choixColor {
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+#choixColor img {
+    width: 100px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    margin: 0 5px;
+    background-color: white;
+    padding: 10px;
+}
